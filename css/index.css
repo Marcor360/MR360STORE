@@ -1,0 +1,126 @@
+:root {
+    --Blanco: #ffffff;
+    --Negro: #000000;
+    --Verde-menta: #48c9b0;
+    --Verde-agua: #17a589;
+    --Verde-agua-oscuro: #1abc9c;
+    --Amarillo-descolorido: #DAF7A6;
+    --AMARILLO: #FFC300;
+    --Rojo-sandia: #FF5733;
+    --Fuente-principal: 'Boogaloo', cursive;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /*Esto nospermite hacer que 1 rem sea igual a 10px*/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/*Globales*/
+
+body {
+    background-color: var(--Verde-agua);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+
+/*Letras*/
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+    color: var(--Blanco);
+    font-family: var(--Fuente-principal);
+}
+
+
+/*Tamaño de letra*/
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3.7rem;
+}
+
+h3 {
+    font-size: 2.7rem;
+}
+
+h4 {
+    font-size: 2.3rem;
+}
+
+p {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--Blanco);
+}
+
+
+/*Links*/
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--Amarillo-descolorido);
+}
+
+
+/*Imagenes*/
+
+img {
+    max-width: 100%;
+}
+
+.contenedro {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+
+/*Heder*/
+
+.heder {
+    display: flex;
+    justify-content: center;
+}
+
+.heder__logo {
+    margin: 3rem 0;
+}
+
+
+/*Navegación*/
+
+.nav {
+    background-color: var(--Verde-agua-oscuro);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.nav__enlaces {
+    font-family: var(--Fuente-principal);
+    color: var(--Blanco);
+    font-size: 3rem;
+}
+
+.nav__enlaces--activo,
+.nav__enlaces:hover {
+    color: #FFC300;
+}
