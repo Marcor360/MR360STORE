@@ -139,3 +139,45 @@ img {
     font-family: var(--Fuente-principal);
     font-size: 2.5rem;
 }
+
+
+/*Grid*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    text-align: center;
+}
+
+
+/*Media Queries*/
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+    }
+}
+
+
+/* Productos */
+
+.Product {
+    background-color: var(--Verde-menta);
+    padding: 1.5rem;
+}
+
+.Product__img {
+    width: 100%;
+}
+
+.Product__informacion {}
+
+.Product__nombre {
+    font-size: 3rem;
+}
+
+.Product__precio {
+    font-size: 2.2rem;
+}
