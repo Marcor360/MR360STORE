@@ -224,8 +224,8 @@ img {
 }
 
 .Nosotros__img {
-    grid-row: 1/3;
-    width: auto;
+    grid-row: 1/2;
+    width: 100%;
 }
 
 @media (min-width:768px) {
