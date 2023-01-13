@@ -171,6 +171,7 @@ img {
 .Product__img {
     width: 50%;
     height: auto;
+    border-radius: 1rem;
 }
 
 .Product__nombre {
