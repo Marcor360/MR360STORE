@@ -86,7 +86,7 @@ img {
     max-width: 100%;
 }
 
-.contenedro {
+.contenedor {
     max-width: 120rem;
     margin: 0 auto;
 }
@@ -211,3 +211,29 @@ img {
 
 
 /*Nosotros*/
+
+.Nosotros {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+}
+
+@media (min-width: 768px) {
+    .Nosotros {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+.Nosotros__cont {}
+
+.Nosotros__img {
+    grid-row: 1/2;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .Nosotros__img {
+        grid-column: 2/3;
+        border-radius: 1rem;
+    }
+}
