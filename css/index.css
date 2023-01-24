@@ -235,5 +235,9 @@ img {
     .Nosotros__img {
         grid-column: 2/3;
         border-radius: 1rem;
+        /*Sombra del borde de la imagen*/
+        -webkit-box-shadow: -15px -4px 27px 6px rgba(0, 0, 0, 0.55);
+        -moz-box-shadow: -15px -4px 27px 6px rgba(0, 0, 0, 0.55);
+        box-shadow: -15px -4px 27px 6px rgba(0, 0, 0, 0.55);
     }
 }
