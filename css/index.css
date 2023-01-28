@@ -241,3 +241,29 @@ img {
         box-shadow: -15px -4px 27px 6px rgba(0, 0, 0, 0.55);
     }
 }
+
+
+/*Nosotrso Motivos*/
+
+.Bloques {
+    display: grid;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .Bloques {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.Bloque {
+    text-align: center;
+}
+
+.Bloque__img {
+    margin: 0;
+}
+
+.Compra__Titulo {
+    margin: 0;
+}
