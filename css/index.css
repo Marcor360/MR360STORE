@@ -125,6 +125,11 @@ img {
     color: var(--AMARILLO);
 }
 
+.nav a:hover {
+    background-color: var(--Verde-agua);
+    border-radius: 1rem;
+}
+
 
 /*Footer*/
 
@@ -224,7 +229,8 @@ img {
     }
 }
 
-.Nosotros__cont {}
+
+/*.Nosotros__cont {}*/
 
 .Nosotros__img {
     grid-row: 1/2;
