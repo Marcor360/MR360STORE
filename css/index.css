@@ -125,6 +125,9 @@ img {
     color: var(--AMARILLO);
 }
 
+
+/*Codigo de CCS para ponerle color al fondo del navbar*/
+
 .nav a:hover {
     background-color: var(--Verde-agua);
     border-radius: 1rem;
