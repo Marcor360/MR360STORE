@@ -279,3 +279,33 @@ img {
 
 
 /*Soporte*/
+
+
+/*Botones*/
+
+.Lista__Contacto {
+    list-style-type: none;
+}
+
+.Boton {
+    font-family: var(--Fuente-principal);
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: var(--Verde-agua-oscuro);
+    border-radius: 1rem;
+    padding-inline-start: 3rem;
+    padding: 2rem;
+    font-size: 2.5rem;
+}
+
+.Boton--activo,
+.Boton:hover {
+    color: var(--AMARILLO);
+}
+
+.Boton a:hover {
+    background-color: var(--Verde-agua);
+    padding: 3px;
+}
