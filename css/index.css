@@ -330,3 +330,10 @@ img {
         width: 30%;
     }
 }
+
+@media (max-width: 768px) {
+    .Boton a:hover {
+        padding: 3.5%;
+        border-radius: 0.5rem;
+    }
+}
