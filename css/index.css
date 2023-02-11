@@ -311,17 +311,19 @@ img {
     width: 50%;
     text-align: center;
     border: 0px;
+    transition: border-radius 1s ease;
 }
 
 .Boton--activo,
 .Boton:hover {
     color: var(--AMARILLO);
+    border: 0.2rem solid var(--Blanco);
 }
 
 .Boton a:hover {
     background-color: var(--Verde-agua);
     padding: 14px;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 
 @media (min-width: 768px) {
